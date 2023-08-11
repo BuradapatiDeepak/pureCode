@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+/* Reset default margin and padding */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles for the header */
+.header {
+    background-color: #262626;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* Styles for the logo image */
+.logo {
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+}
+
+/* Styles for the "Buy Now" button */
+.buy-button {
+    background-color: #80b63d;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 1px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Navigation bar container */
+.navbar-container {
+    background-color: #ffffff;
+    padding: 10px 0;
+}
+
+/* Navigation bar styles */
+.navbar {
+    background-color: #ffffff;
+    color: black;
+    /* Set text color to black */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin: 0 auto;
+    /* Center the navigation bar within the container */
+    max-width: 1200px;
+    /* Set a maximum width for the container */
+}
+
+.nav-logo {
+    width: 100px;
+    height: auto;
+}
+
+.nav-elements {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-dropdown {
+    position: relative;
+}
+
+.nav-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    padding: 10px;
+    top: 30px;
+    left: 0;
+    z-index: 1;
+}
+
+.nav-dropdown:hover .nav-dropdown-content {
+    display: block;
+}
+
+.nav-icons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Styles for the circle with number */
+.circle {
+    width: 20px;
+    height: 20px;
+    background-color: #289ac9;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}
+
+/* Footer container */
+.footer {
+    background-color: #ffffff;
+    padding: 20px;
+    color: #a9a7ab;
+}
+
+/* Footer grid layout */
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 20px;
+}
+
+.facebook {
+    color: #1877f2;
+    /* Facebook color */
+}
+
+.youtube {
+    color: #ff0000;
+    /* YouTube color */
+}
+
+.telegram {
+    color: #0088cc;
+    /* Telegram color */
+}
+
+.twitter {
+    color: #1da1f2;
+    /* Twitter color */
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.footer-logo {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.footer-social {
+    display: flex;
+    gap: 10px;
+}
+
+.footer-icon {
+    font-size: 20px;
+}
+
+.footer-bold {
+    font-weight: 700;
+    color: black;
+}
+
+.socio {
+    font-weight: 300;
+    color: black;
+}
+
+.footer-links {
+    margin-top: 10px;
+    color: #aca7a5;
+}
+
+.con1 {
+    background-color: black;
+    height: 55px;
+    width: 100vw;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.btn {
+    background-color: white;
+    border: 0;
+
+}
+
+.tn {
+    border: 0;
+    border-radius: 4px;
+    height: 39px;
+}
+
+.span1 {
+    color: green;
+}
+
+.span2 {
+    color: black;
+    font-weight: 500;
+}
+
+.aa {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.img1 {
+    height: 50px;
+    width: 50px;
+}
+
+.img2 {
+    height: 40px;
+}
+
+.img4 {
+    height: 30px;
+}
+
+.head1 {
+    color: white;
+}
+
+.para1 {
+    text-decoration: underline;
+}
+
+.img3 {
+    height: 19px;
+}
+
+.con2 {
+    border: 0.1px #414A4C solid;
+    border-radius: 8px;
+    width: 50vw;
+}
+
+.line {
+    border: 1px #414A4C solid;
+}
+
+.form-heading {
+    font-family: "Roboto";
+    font-size: 36px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.error-message {
+    color: #dc3545;
+    font-family: "Roboto";
+    font-size: 14px;
+}
+
+.gender-field-heading {
+    color: #212529;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.for {
+    width: 24vw;
+    border-radius: 10px;
+}
+
+.for1 {
+    width: 33vw;
+    border-radius: 10px;
+}
+
+.for2 {
+    width: 14vw;
+    border-radius: 10px;
+}
+
+.cond1 {
+    border-bottom: 1px black solid;
+}
+
+.button {
+    border-radius: 20px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.back {
+    background-color: #dbe9f4;
+    border-radius: 10px;
+    width: 20vw;
+}
+
+.bb {
+    text-align: left;
+}
+
+.cl {
+    height: 150px;
+    padding: 20px;
+}
+
+.c2 {
+    height: 20px;
+}
+
+.vertical {
+    border-left: 6px solid blue;
+    height: 10px;
+    position: absolute;
+    left: 50%;
+}
+
+.ss {
+    padding-left: 200px;
+}
+
+.ds {
+    margin-top: 38px;
+}
+
+.dos {
+    padding-left: 200px;
+}
+
+.do {
+    padding-left: 180px;
+}
+
+.ddo {
+    padding-left: 150px;
+}
+
+.sos {
+    margin-left: 100px;
+}
+
+.ff {
+    color: green;
+    background-color: white;
+    font-weight: bold;
+    border: 2px green solid;
+    border-radius: 4px;
+}
